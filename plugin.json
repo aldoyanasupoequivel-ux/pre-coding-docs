@@ -1,0 +1,11 @@
+{
+  "name": "pre-coding-docs",
+  "displayName": "Pre-Coding Docs & Engineering Standards",
+  "version": "1.0.0",
+  "description": "Interactive pre-coding documentation generator (12 universal Markdown templates for Web and Mobile systems) plus clean-code engineering rules.",
+  "suggestedPrompts": [
+    "Iniciemos un nuevo proyecto con pre-coding-docs",
+    "Hazme la entrevista para generar la documentacion previa de mi app movil",
+    "Audita la coherencia de la carpeta docs/ antes de empezar a codificar"
+  ]
+}
