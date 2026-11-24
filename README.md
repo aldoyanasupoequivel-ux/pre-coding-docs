@@ -48,7 +48,7 @@ Para versionar este plugin en tu cuenta de GitHub:
 git init -b main
 git add .
 git commit -m "feat: plugin inicial pre-coding-docs con 12 plantillas y reglas"
-git remote add origin https://github.com/<TU_USUARIO>/pre-coding-docs.git
+git remote add origin https://github.com/aldoyanasupoequivel-ux/pre-coding-docs.git
 git push -u origin main
 ```
 
@@ -74,5 +74,5 @@ git push
 Si cambias de computadora, simplemente clona tu repositorio directamente en la carpeta global de plugins de Antigravity:
 
 ```powershell
-git clone https://github.com/<TU_USUARIO>/pre-coding-docs.git "$HOME\.gemini\config\plugins\pre-coding-docs"
+git clone https://github.com/aldoyanasupoequivel-ux/pre-coding-docs.git "$HOME\.gemini\config\plugins\pre-coding-docs"
 ```

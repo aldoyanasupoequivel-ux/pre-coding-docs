@@ -2,6 +2,7 @@
   "name": "pre-coding-docs",
   "displayName": "Pre-Coding Docs & Engineering Standards",
   "version": "1.0.0",
+  "repository": "https://github.com/aldoyanasupoequivel-ux/pre-coding-docs",
   "description": "Interactive pre-coding documentation generator (12 universal Markdown templates for Web and Mobile systems) plus clean-code engineering rules.",
   "suggestedPrompts": [
     "Iniciemos un nuevo proyecto con pre-coding-docs",
