@@ -37,6 +37,32 @@ pre-coding-docs/
 
 ---
 
+## Cómo usarlo en Antigravity
+
+Una vez ubicado en `~/.gemini/config/plugins/pre-coding-docs/`, **el plugin se carga y activa automáticamente** para todos tus proyectos (no necesitas comandos extra de activación). Puedes verificarlo o encenderlo/apagarlo en cualquier momento desde el panel de **Customizations** de Antigravity.
+
+### Formas de iniciar la entrevista en un proyecto nuevo
+
+1. **Activación automática (sin invocar el plugin):**
+   Abre una carpeta vacía para tu nuevo proyecto y describe qué vas a construir, por ejemplo:
+   - *"Quiero crear una app móvil para reservas de canchas deportivas"*
+   - *"Vamos a iniciar un sistema web de inventario para una ferretería"*
+
+   Al detectar un proyecto nuevo sin carpeta `docs/`, la regla global (`rules/AGENTS.md`) se dispara automáticamente y el agente te ofrecerá iniciar la entrevista de `pre-coding-docs` antes de codificar.
+
+2. **Invocación directa:**
+   Si prefieres arrancar la entrevista de inmediato, escribe:
+   - *"Iniciemos un nuevo proyecto con `pre-coding-docs`"*
+   - *"Usa `pre-coding-docs` y hazme la entrevista para documentar mi sistema"*
+
+### Qué ocurre al iniciarlo
+
+1. **Ronda 1 (opción múltiple):** tipo de plataforma (Web/PWA, Móvil, combinado o API), alcance (los 12 documentos, paquete MVP o selección) y tipo de backend/BD.
+2. **Rondas 2 y 3 (preguntas breves):** nombre del sistema, roles/permisos, flujos principales, exclusiones del MVP, stack y estilo visual.
+3. **Generación en `docs/`:** crea los documentos Markdown adaptados dentro de la carpeta `docs/` del nuevo proyecto.
+4. **Auditoría cruzada:** verifica coherencia entre roles, vistas, HUs, sprints y base de datos antes de iniciar el **Sprint 1** (donde las reglas de ingeniería limpia aplican automáticamente).
+
+---
 ## Cómo actualizar el skill, las reglas o las plantillas
 
 1. Edita directamente cualquier archivo dentro de esta carpeta:
