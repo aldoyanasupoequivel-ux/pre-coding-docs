@@ -1,4 +1,4 @@
-# Pre-Coding Docs — Plugin de Antigravity
+# Pre-Coding Docs - plugin de Antigravity
 
 Plugin modular que combina:
 1. **Skill interactivo (`pre-coding-docs`)**: te entrevista antes de programar y genera hasta **12 documentos Markdown** coherentes entre sí para cualquier sistema **Web, PWA o Móvil**.
@@ -33,23 +33,6 @@ pre-coding-docs/
                 ├── 10_ESTRATEGIA_TESTING_QA.md
                 ├── 11_DESPLIEGUE_Y_CICD.md
                 └── 12_BACKUPS_Y_MIGRACION.md
-```
-
----
-
-## Cómo subir este plugin a tu GitHub
-
-Para versionar este plugin en tu cuenta de GitHub:
-
-1. Crea un repositorio nuevo en GitHub (por ejemplo, `pre-coding-docs`), **sin** README ni `.gitignore` iniciales.
-2. Abre una terminal en esta carpeta (`C:\Users\aldin\.gemini\config\plugins\pre-coding-docs`) y ejecuta:
-
-```powershell
-git init -b main
-git add .
-git commit -m "feat: plugin inicial pre-coding-docs con 12 plantillas y reglas"
-git remote add origin https://github.com/aldoyanasupoequivel-ux/pre-coding-docs.git
-git push -u origin main
 ```
 
 ---
